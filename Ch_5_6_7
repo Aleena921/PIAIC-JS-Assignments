@@ -17,8 +17,7 @@
    alert("a="+a)
    alert("b="+b)
 
-
-</script>
+   </script>
    
   </body>
  </html>
