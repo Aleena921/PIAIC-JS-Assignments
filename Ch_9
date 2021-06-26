@@ -10,12 +10,14 @@
   <body>
    
    <script>
-    var firstName="Aleena"
-    var lastName="Irfan"
-    var age=22
-    alert("Hello Aleena Irfan, You are 22 years old")
+    var firstName =prompt("Enter your first name", "Aleena");
+    var lastName =prompt("Enter your last name", "Irfan");
+    var age =prompt("Enter your age", 22)
+    alert("Hello" + " " + firstName + " " + lastName + "," + " " + "You are" + " " + age + " " + "years old");
     
    </script>
    
   </body>
- </html>
+</html>
+
+
