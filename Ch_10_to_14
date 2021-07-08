@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ 
+  <body>
+   
+   <script>
+    var num1 =prompt("Enter a value", 7);
+    num1=Number(num1)
+    var num2 =prompt("Enter a second value", 6);
+    num2=Number(num2)
+    var sign =prompt("Enter any sign", "+,-,*,/,%"); 
+    var ans= num1+num2
+    var ans2= num1-num2
+    var ans3= num1*num2
+    var ans4= num1/num2
+    ans4=ans4.toFixed(1)
+    var ans5= num1%num2
+    if (sign == "+")
+    {
+      alert(num1 + sign + num2 + " " + "=" + ans);
+    }
+    else if (sign == "-")
+    {
+      alert(num1 + sign + num2 + " " + "=" + ans2);
+    }
+    else if (sign == "*")
+    {
+      alert(num1 + sign + num2 + " " + "=" + ans3);
+    }
+    else if (sign == "/")
+    {
+      alert(num1 + sign + num2 + " " + "=" + ans4);
+    }   
+    else if (sign == "%")
+    {
+      alert(num1 + sign + num2 + " " + "=" + ans5);
+    }
+
+
+    var course1 =prompt("Enter number of course1", 70);
+    course1=Number(course1)
+    var course2 =prompt("Enter number of course2", 80);
+    course2=Number(course2)
+    var course3 =prompt("Enter number of course3", 85);
+    course3=Number(course3)
+    var course4 =prompt("Enter number of course4", 90);
+    course4=Number(course4)
+    var course5 =prompt("Enter number of course5", 100);
+    course5=Number(course5)
+    var obtainedMarks= course1+course2+course3+course4+course5
+    var totalMarks= 500
+    var percentage= obtainedMarks*100/totalMarks+"%"
+    alert("percentage= " + percentage)
+
+ 
+   </script>
+   
+  </body>
+ </html>
