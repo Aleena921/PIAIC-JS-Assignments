@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ 
+  <body>
+   
+   <script>
+    var courses = []
+    var course1 = prompt("Course1", "Accounts and Finance")
+    courses.push(course1)
+    var course2 = prompt("Course2", "Business Administration")
+    courses.push(course2)
+    var course3 = prompt("Course3", "Fashion Designing")
+    courses.push(course3)
+    var course4 = prompt("Course4", "Interior Designing")
+    courses.push(course4)
+    var course5 = prompt("Course5", "Beaking")
+    courses.push(course5)
+    alert(courses)
+    course1 = prompt(course1, "Accounts and Finance")
+    course2 = prompt(course2, "Business Administration")
+    course3 = prompt(course3, "Fashion Designing")
+    course4 = prompt(course4, "Interior Designing")
+    course5 = prompt(course5, "Beaking")
+    course2 = prompt(course2, "Computer")
+    courses.splice(1, 1, "Computer" )
+    alert(courses)
+    console.log(courses)
+   </script>
+   
+ </body>
+</html>
