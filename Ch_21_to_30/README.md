@@ -11,7 +11,7 @@
 
 
   
-# Second Assignment
+### Second Assignment
 
     input value from user in String var inputValue="cloUd naTive computinG"
     Convert every first letter of the content in Capitalize case. inputValue="Cloud Native Computing"
