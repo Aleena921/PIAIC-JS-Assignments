@@ -2,7 +2,7 @@
 
 Java-script assignments chapter 31 to 34
 
-1. input your name through prompt. for example name is "Ameen Alam"
+1. input your name through prompt. for example name is "Aleena Irfan"
 
 2. input your DOB(date) through prompt. for example date is "24"
 
@@ -10,7 +10,7 @@ Java-script assignments chapter 31 to 34
 
 4. input your DOB(year) through prompt. for example year is "1999"
 
-5. print meassage in console.log() "Hello Ameen Alam, Good Morning, AfterNoon, Evening or Night"
+5. print meassage in console.log() "Hello Aleena Irfan, Good Morning, AfterNoon, Evening or Night"
 
 6. print meassage in console.log() "Your DOB is {in pakistan standard time format}"
 
@@ -18,4 +18,4 @@ Java-script assignments chapter 31 to 34
 
     "Your Age in Days 7510"
 
-8. print meassage in console.log() "How much time left in your next birthday? 161 days 4 hours 39 minutes 34 seconds" or "happy Birth Day Ameen Alam. Today is Your 20th Birthday"
+8. print meassage in console.log() "How much time left in your next birthday? 161 days 4 hours 39 minutes 34 seconds" or "happy Birth Day Aleena Irfan. Today is Your 20th Birthday"
